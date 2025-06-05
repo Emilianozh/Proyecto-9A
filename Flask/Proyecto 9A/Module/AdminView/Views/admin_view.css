@@ -71,6 +71,16 @@ tbody tr:hover {
 .navbar a:hover {
     background: #218838;
 }
+.navbar a.logout {
+    background: #c82333;
+    color: white !important;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: background 0.2s;
+}
+.navbar a.logout:hover {
+    background: #a71d2a;
+}
 .navbar .search-bar {
     margin-right: 20px;
     display: flex;
