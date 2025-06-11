@@ -22,17 +22,18 @@ table {
     border-collapse: collapse;
     width: 70%;
     background-color: #23272b;
-    color: #f8f9fa;
+    color: #111;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 th, td {
+    color: hsl(0, 0%, 100%);
     border: 1px solid #444;
     padding: 8px 12px;
     text-align: center;
 }
 th {
-    background-color: #343a40;
-    color: #f8f9fa;
+    background-color: hsl(0, 0%, 100%);
+    color: #111;
 }
 tbody tr {
     background-color: #23272b;
