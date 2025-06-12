@@ -1,5 +1,9 @@
+a h2, h2.text-center {
+    color: #fff !important;
+}
+
 .btn-color{
-  background-color: #0e1c36;
+  background-color: hsl(0, 0%, 17%);
   color: #fff;
   
 }
@@ -13,7 +17,22 @@
 
 
 .cardbody-color{
-  background-color: #ebf2fa;
+  background-color: #b0b3b8 !important;
+}
+
+body {
+    background-color: lab(23.52% 0 0) !important;
+}
+
+/* Botón de login verde */
+.btn.btn-color, .btn-color {
+    background-color: #28a745 !important;
+    color: #fff !important;
+    border: none;
+}
+.btn.btn-color:hover, .btn-color:hover {
+    background-color: #218838 !important;
+    color: #fff !important;
 }
 
 a{
